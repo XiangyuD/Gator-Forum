@@ -2,7 +2,7 @@ This is SE Projects By Center of the Road Group
 
 **Group members:**
 - Frontend: 
-	- Xiangyu Deng(XIA1900): Designed and built all webpages, implemented all required functions, integrated with backend.
+	- Xiangyu Deng(XiangyuD): Designed and built all webpages, implemented all required functions, integrated with backend.
 	- Kaiyue Wang(kywithsweet): Cypress test.
 - Backend: Bowei Wu(TOMBowei), Yingjie Chen(fongziyjun16)
 
