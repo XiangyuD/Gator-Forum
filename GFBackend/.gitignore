@@ -1,0 +1,8 @@
+/.idea
+/bin
+/config/application.yaml
+/logger/logs
+/.DS_Store
+/resources/userfiles/*
+/resources/groupfiles/*
+/test/.DS_Store

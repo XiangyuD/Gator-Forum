@@ -1,0 +1,38 @@
+# This yaml config file is a demo, so the value of each field is not real, but you can try
+
+server:
+  port: 2022
+  basepath: ""
+
+database:
+  ip: "007.007.007.007"
+  port: 2024
+  username: "Jame"
+  password: "Bond"
+  db1: "MI6"
+  db2: "MI76"
+
+redis:
+  ip: "009.009.009.009"
+  port: 2028
+  password: "rocket on!!!"
+  db: 0
+
+elasticsearch:
+  ip: "009.009.009.009"
+  port: 6009
+  username: "elastic"
+  password: "es.js"
+
+jwt:
+  secretkey: "SpiderMan"
+  expires: 100000 # minutes
+
+logger:
+  # Debug < Info < Warn < Error
+  lowestlevel: "Debug"
+  path:
+    debug: "./logger/runtime/debug.logger"
+    info: "./logger/runtime/info.logger"
+    warn: "./logger/runtime/warn.logger"
+    error: "./logger/runtime/error.logger"

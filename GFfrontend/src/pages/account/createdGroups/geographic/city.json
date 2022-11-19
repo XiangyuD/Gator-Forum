@@ -1,0 +1,27 @@
+{
+  "110000": [
+    {
+      "province": "FL-Florida",
+      "name": "Gainesville",
+      "id": "110100"
+    },
+    {
+      "province": "FL-Florida",
+      "name": "Orlando",
+      "id": "110200"
+    },
+     {
+      "province": "FL-Florida",
+      "name": "Miami",
+      "id": "110300"
+    }
+  ],
+    "120000": [
+    {
+      "province": "GA-Georgia",
+      "name": "Atlanta",
+      "id": "120100"
+    }
+  ]
+}
+

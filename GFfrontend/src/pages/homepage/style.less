@@ -1,0 +1,31 @@
+@import '~antd/es/style/themes/default.less';
+
+a.listItemMetaTitle {
+  color: #4F4F4F;
+}
+.listItemExtra {
+  width: 272px;
+  height: 1px;
+}
+.selfTrigger {
+  margin-left: 12px;
+}
+
+@media screen and (max-width: @screen-xs) {
+  .selfTrigger {
+    display: block;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: @screen-md) {
+  .selfTrigger {
+    display: block;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: @screen-lg) {
+  .listItemExtra {
+    width: 0;
+    height: 1px;
+  }
+}

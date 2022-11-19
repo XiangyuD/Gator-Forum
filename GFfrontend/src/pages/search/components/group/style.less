@@ -1,0 +1,69 @@
+@import '~antd/es/style/themes/default.less';
+
+a {
+  color: #4F4F4F,
+}
+.cardList {
+  .card {
+    :global {
+      .ant-card-meta-title {
+        margin-bottom: 12px;
+        & > a {
+          display: inline-block;
+          max-width: 100%;
+          color: @heading-color;
+        }
+      }
+      .ant-card-body:hover {
+        .ant-card-meta-title > a {
+          color: @primary-color;
+        }
+      }
+    }
+  }
+  .item {
+    height: 64px;
+  }
+
+  :global {
+    .ant-list .ant-list-item-content-single {
+      max-width: 100%;
+    }
+  }
+}
+
+a.listItemMetaTitle {
+  color: @heading-color;
+}
+.listItemExtra {
+  width: 272px;
+  height: 1px;
+}
+.selfTrigger {
+  margin-left: 12px;
+}
+
+.cardAvatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+}
+
+@media screen and (max-width: @screen-xs) {
+  .selfTrigger {
+    display: block;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: @screen-md) {
+  .selfTrigger {
+    display: block;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: @screen-lg) {
+  .listItemExtra {
+    width: 0;
+    height: 1px;
+  }
+}

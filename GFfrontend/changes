@@ -1,0 +1,18 @@
+# proxy.js
+avatar ip(homepage, avatarDropdown, /account/center)
+
+# config.js
+line 264-265;
+
+# /services/getList.js
+
+# /services/getPost.js
+line 7, 18, 29, 40
+
+# /services/getGroupInfo.js
+line 5, 31
+
+# /services/user.js
+line 34, 45, 64， 82
+
+npm run start:no-mock
