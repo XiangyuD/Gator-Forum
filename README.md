@@ -1,4 +1,3 @@
-This is SE Projects By Center of the Road Group
 
 **Technological stack:**
 - Frontend: React, HTML/CSS, JSX
